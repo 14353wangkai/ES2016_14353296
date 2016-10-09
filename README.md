@@ -1,6 +1,21 @@
 #配置DOL实验过程描述
 ###本次实验让我们配置了dol文件
 ***
+DOL框架
+<br>
+&emsp;&emsp;
+在应用接口方面：
+定义了一些列计算和通信的过程，使得SHAPES平台可以使用一些分布式程序和并行化应用。这为程序员提供了方便，让他们不需要知道底层应用详细的知识就能进行编程。
+<br>
+&emsp;&emsp;
+在函数测试方面：
+为程序员们提供了同步测试代码的可能性。除了测试函数功能以外，这个框架还可以用于获取应用级别的性能参数
+<br>
+&emsp;&emsp;
+在映射最优化方面：
+目标是计算一个应用于SHAPES平台的最优化映射。
+首先，基于XML的格式是允许用户在抽象层面去描述应用和结构信息的。并且，它包含了为了精确评估表现的信息。
+***
 <h2 align = "center">配置开始</h2>
 <br>
 ##一：前期准备
@@ -8,8 +23,8 @@
 <li>将下图两个压缩包复制到ubantu中</li>
 <img src="yasuobao.png"/>
 <li>更换软件源，把US服务器改成china中的服务器</li>
-<img src="sources.png"/>
-<img src="sources2.png"/>
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221372/c0859264-8e74-11e6-933f-e204c505636e.png"/>
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221393/3b2a519e-8e75-11e6-82d7-a6077052eef7.png"/>
 <li>输入sudo apt-get update, 对ubantu进行更新同步</li>
 </ol>
 
@@ -40,21 +55,21 @@
 <ol>
 <li>输入cd ../dol退回home，进入dol文件夹</li>
 <li>利用gedit命令打开build_zip.xml的图形化界面，找到其中如下图所示的语句</li>
-<img src="before.png">
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221414/c6b22282-8e75-11e6-8a0f-66bd11f32855.png">
 <br>
 把它修改成
 <br>
-<img src="after.png">
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221403/7d7ea446-8e75-11e6-98be-18f5b7e10ea6.png">
 <br>
 黑框部分是16步中pwd所得到的工作路径
 
 <li>输入sudo ant -f build_zip.xml all进行编译，编译成功之后会看到下图结果</li>
-<img src="build.png">
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221416/e1d4c240-8e75-11e6-916d-422c187be45a.PNG">
 <li>最后，输入cd build/bin/main进入该文件夹，输入sudo ant -f runexample.xml -Dnumber=1运行其中一个例子之后，结果如下，证明成功~</li>
-<img src="running.png">
+<img src="https://cloud.githubusercontent.com/assets/22441229/19221422/fd86777c-8e75-11e6-9d52-53b218a11bce.PNG">
 </ol>
 ***
-<h2 align = "center">配置完成</p>
+<h2 align = "center">配置完成</h2>
 #实验感想
 ***
 &emsp;&emsp;
