@@ -6,7 +6,7 @@
 ##一：前期准备
 <ol>
 <li>将下图两个压缩包复制到ubantu中</li>
-<img src="yasuobao.png"/>
+<img src="http://thumbnail0.baidupcs.com/thumbnail/a737986007cbf727ee528ee10611df29?fid=2133074088-250528-347392740943065&time=1475974800&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gGF6K5ItHg3TjhrbB%2FR08Jwtn64%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=6549109488031701301&dp-callid=0&size=c710_u400&quality=100"/>
 <li>更换软件源，把US服务器改成china中的服务器</li>
 <img src="sources.png"/>
 <img src="sources2.png"/>
