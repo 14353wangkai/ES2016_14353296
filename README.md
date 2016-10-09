@@ -21,7 +21,7 @@ DOL框架
 ##一：前期准备
 <ol>
 <li>将下图两个压缩包复制到ubantu中</li>
-<img src="yasuobao.png"/>
+<img src="https://cloud.githubusercontent.com/assets/22441229/19222179/d93d3af4-8e84-11e6-8987-8dc683de5777.png"/>
 <li>更换软件源，把US服务器改成china中的服务器</li>
 <img src="https://cloud.githubusercontent.com/assets/22441229/19221372/c0859264-8e74-11e6-933f-e204c505636e.png"/>
 <img src="https://cloud.githubusercontent.com/assets/22441229/19221393/3b2a519e-8e75-11e6-82d7-a6077052eef7.png"/>
