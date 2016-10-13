@@ -61,7 +61,7 @@ DOL框架
 <br>
 <img src="https://cloud.githubusercontent.com/assets/22441229/19221403/7d7ea446-8e75-11e6-98be-18f5b7e10ea6.png">
 <br>
-黑框部分是16步中pwd所得到的工作路径
+**黑框部分是第四大步第7小步中，pwd所得到的工作路径**
 
 <li>输入sudo ant -f build_zip.xml all进行编译，编译成功之后会看到下图结果</li>
 <img src="https://cloud.githubusercontent.com/assets/22441229/19221416/e1d4c240-8e75-11e6-916d-422c187be45a.PNG">
